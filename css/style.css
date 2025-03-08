@@ -2755,14 +2755,14 @@ h3 {
 
 /* line 61, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
 .footer .footer_top .single_links a i {
-  color: #DB9A64;
+  color: #ffff00;
   font-size: 20px;
 }
 
 /* line 66, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
 .footer .footer_top .single_links:hover {
-  background: #CCAD85;
-  border: 1px solid #CCAD85;
+  background: #ffff00;
+  border: 1px solid #ffff00;
   color: #fff;
 }
 
