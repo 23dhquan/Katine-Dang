@@ -1211,7 +1211,16 @@ h3 {
 .header-area .main-header-area .main-menu ul li:first-child a {
   padding-left: 0;
 }
+.img-ccc {
+  width: 100px !important;
+  height: auto;
+}
 
+@media screen and (max-width: 1000px) {
+  .img-ccc {
+      width: 50px !important;
+  }
+}
 /* line 255, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
@@ -2035,7 +2044,7 @@ h3 {
   background-repeat: no-repeat;
   position: relative;
   padding: 106px 0 120px 0;
-  background: #3B2930;
+  background: #000000;
   overflow: hidden;
 }
 
@@ -2129,13 +2138,13 @@ h3 {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border: 1px solid #7B5645;
-  color: #7B5644 !important;
+  border: 1px solid #ffff00;
+  color: #ffff00 !important;
 }
 
 /* line 83, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_testmonial.scss */
 .testimonial_area .owl-carousel .owl-nav div:hover {
-  background: #DB9A64;
+  background: #ffff00;
   color: #fff !important;
 }
 
@@ -2636,7 +2645,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../img/banner/footer_bg.png);
+  background-color:black;
 }
 
 /* line 7, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
@@ -2706,7 +2715,7 @@ h3 {
 
 /* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
 .footer .footer_top .single_links {
-  border: 1px solid #7A5444;
+  border: 1px solid #fff700;
   padding: 25px 30px;
   cursor: pointer;
   -webkit-transition: 0.3s;
